@@ -39,4 +39,4 @@ There are no bugs in the project.
 - jensam209@gmail.com
 
 ## License
-Licenced under the MT-licenceCopyright (c) 2022 **jennifer sammy.
+License  https://github.com/jenna-lab/challenge2ph2/blob/main/LICENSE.md **jennifer sammy.
