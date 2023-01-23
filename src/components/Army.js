@@ -19,3 +19,7 @@ const Army = () => {
 
     armies ? alert("Bot exists in the list already") : setArmy([...army, bot]);
   };
+  const handleClick = (id) => {
+    const newArmy = army.filter((bot) => bot.id !== id);
+    setArmy(newArmy);
+  };
