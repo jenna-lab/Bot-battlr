@@ -23,3 +23,11 @@ const Army = () => {
     const newArmy = army.filter((bot) => bot.id !== id);
     setArmy(newArmy);
   };
+  return (
+    <div>
+      <YourBotArmy army={army} handleOnClick={handleClick} />
+      <BotCollection bots={bots} handleOnClick={handleOnClick} />
+    </div>
+  );
+};
+export default   Army;
