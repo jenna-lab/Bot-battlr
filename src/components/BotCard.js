@@ -11,3 +11,8 @@ const BotCard = ({ bots, handleOnClick }) => {
                 key={bot.id}
                 onClick={() => handleOnClick(bot.id)}
               >
+                <img
+                src={bot.avatar_url}
+                className="card-img-top"
+                alt={bot.name}
+              ></img>
