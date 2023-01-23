@@ -27,3 +27,23 @@ const YourBotArmy = ({ army, handleOnClick }) => {
                       <div className="column">
                         <strong>{bot.health}</strong>
                       </div>
+                      <div className="column col-2">
+                        <i className="icon large circular yellow lightning" />
+                        <strong>{bot.damage}</strong>
+                      </div>
+                      <div className="column">
+                        <i className="icon large circular blue shield" />
+                        <strong>{bot.armor}</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export default YourBotArmy;
