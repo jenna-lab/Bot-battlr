@@ -16,3 +16,7 @@ const BotCard = ({ bots, handleOnClick }) => {
                 className="card-img-top"
                 alt={bot.name}
               ></img>
+               <div className="card-body">
+                <h5 className="card-title">{bot.name}</h5>
+                <p className="card-text">{bot.catchphrase}</p>
+              </div>
