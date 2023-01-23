@@ -11,3 +11,19 @@ const YourBotArmy = ({ army, handleOnClick }) => {
             key={bot.id}
             onClick={() => handleOnClick(bot.id)}
           >
+             <img
+                src={bot.avatar_url}
+                className="card-img-top"
+                alt={bot.name}
+              ></img>
+              <div className="card-body">
+                <h5 className="card-title">{bot.name}</h5>
+                <p className="card-text">{bot.catchphrase}</p>
+              </div>
+              <div className="card-footer">
+                <div className="ui segment">
+                  <div className="ui three column centered grid">
+                    <div className="row">
+                      <div className="column">
+                        <strong>{bot.health}</strong>
+                      </div>
