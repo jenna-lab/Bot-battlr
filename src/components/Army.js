@@ -12,3 +12,10 @@ const Army = () => {
         .then((data) => setBots(data))
         .catch((err) => console.log(err));
     }, []);
+    //handleclick functions
+  const handleOnClick = (id) => {
+    const bot = bots.find((bot) => bot.id === id);
+    const armies = army.find((bot) => bot.id === id);
+
+    armies ? alert("Bot exists in the list already") : setArmy([...army, bot]);
+  };
