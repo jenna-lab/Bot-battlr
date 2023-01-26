@@ -33,7 +33,7 @@ As a user, I should be able to:
 -Release a bot from my army by clicking on it. The bot disappears from the YourBotArmy component.
 -Discharge a bot from their service forever, by clicking the red button marked "x", which would delete the bot both from the backend and from the YourBotArmy on the frontend.
 # VideoLink
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/38c36872-1024-4194-y67b-3fd28b13185d )
+[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://drive.google.com/file/d/18P-uEDRdv9HWlPVN4eSmdPwnPJWEMsHO/view )
 
 
 # Bugs
