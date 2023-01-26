@@ -11,9 +11,10 @@ A React application that displays a list of available bots, among other features
 - Download the zip file under the code tab.
 - Extract files from the zip file.
 - Open the extracted folder with vscode.
--Run npx craete-react-app (thenameofyourproject).
+- cd into the project folder
+-Run npx create-react-app (thenameofyourproject).
 -Run this command to get the backend started:
-json-server --watch db.json
+json-server --watch db.json -p 8001
 
 -Test your server by visiting this route in the browser:
 http://localhost:8001/bots
@@ -31,6 +32,8 @@ As a user, I should be able to:
 -Add an individual bot to my army by clicking on it. The selected bot should render in the YourBotArmy component. The bot can be enlisted only once. The bot does not disappear from the BotCollection.
 -Release a bot from my army by clicking on it. The bot disappears from the YourBotArmy component.
 -Discharge a bot from their service forever, by clicking the red button marked "x", which would delete the bot both from the backend and from the YourBotArmy on the frontend.
+# VideoLink
+chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/38c36872-1024-4194-y67b-3fd28b13185d
 
 # Bugs
 There are no bugs in the project.
